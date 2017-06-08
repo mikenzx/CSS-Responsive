@@ -1,0 +1,26 @@
+h1 {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #ffcc00; }
+
+.speaker {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffcc00; }
+
+.box {
+  border: 1px;
+  label-padding: 3px; }
+
+input {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffcc00; }
+
+div {
+  float: left; }
+
+/*# sourceMappingURL=main.css.map */
