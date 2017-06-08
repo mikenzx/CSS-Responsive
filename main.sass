@@ -1,0 +1,27 @@
+@mixin border-radius($amount: 5px, $newcolor: #ffcc00)
+  -moz-border-radius: $amount
+  -webkit-border-radius: $amount  
+  border-radius: $amount
+  color: $newcolor
+  
+@mixin border-thickness($amount: 1px)
+  border: $amount
+
+@mixin button-or-label ($type)
+  #{$type}-padding: 3px
+
+h1
+  @include border-radius(2px)
+
+.speaker
+  @include border-radius
+  
+.box 
+  @include border-thickness
+  @include button-or-label(label)
+  
+input
+  @include border-radius
+  
+div
+  float: left
